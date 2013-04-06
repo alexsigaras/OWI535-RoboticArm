@@ -9,6 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWI535.Test.Console", "OWI5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWI535.Test.WinForm", "OWI535.Test.WinForm\OWI535.Test.WinForm.csproj", "{9A2B5CAA-1B31-4272-BAC5-A8BD8455A6CE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{AF553A97-96DE-4121-ABD1-D151EA5E688B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{8DFED8A3-9E52-4BA0-8254-DB0BFA140AC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{7D75479A-241A-4EFD-95FB-C5DB75922413}"
+	ProjectSection(SolutionItems) = preProject
+		OWI535.Library\DLLs\LibUsbDotNet.dll = OWI535.Library\DLLs\LibUsbDotNet.dll
+		OWI535.Library\bin\Debug\OWI535.Library.dll = OWI535.Library\bin\Debug\OWI535.Library.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,5 +44,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5FBDE86-18C3-4935-9F94-ED55111BEA20} = {AF553A97-96DE-4121-ABD1-D151EA5E688B}
+		{54C012F1-7E53-40AA-8EB9-88E2FE28CF0A} = {AF553A97-96DE-4121-ABD1-D151EA5E688B}
+		{9A2B5CAA-1B31-4272-BAC5-A8BD8455A6CE} = {AF553A97-96DE-4121-ABD1-D151EA5E688B}
+		{56C17390-8D72-4A9D-B961-054D1BCBAB2B} = {8DFED8A3-9E52-4BA0-8254-DB0BFA140AC9}
 	EndGlobalSection
 EndGlobal
