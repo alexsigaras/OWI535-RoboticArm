@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>7c9a4d13-3c98-463d-b2ae-147a4abdb67a</ProjectGuid>
+    <ProjectGuid>{9A2B5CAA-1B31-4272-BAC5-A8BD8455A6CE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>OWI535.Test.WinForm</RootNamespace>

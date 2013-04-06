@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>e1ae34fb-630d-4710-a6bb-f257627ece46</ProjectGuid>
+    <ProjectGuid>{54C012F1-7E53-40AA-8EB9-88E2FE28CF0A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>OWI535.Test.Console</RootNamespace>
