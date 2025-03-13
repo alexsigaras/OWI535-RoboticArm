@@ -1,8 +1,11 @@
-# OWI535-RoboticArm
-
 <p align="center">
     <img src="docs/images/OWI535-RoboticArm.jpg" width="256">
 </p>
+
+# OWI535-RoboticArm
+
+[![GitHub](https://img.shields.io/badge/github-1.0.0-green?style=flat&logo=github)](https://github.com/alexsigaras/OWI535-RoboticArm) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A C# library for controlling the OWI 535 Robotic Arm via USB interface. This project provides a simple API to control all movements of the robotic arm including rotation, arm movement, elbow control, claw operations, and light control.
 
